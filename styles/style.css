@@ -1,0 +1,29 @@
+/***
+CSS RESET
+***/
+
+/* Box Sizing Rules*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/*Remove default margin*/
+* {
+    margin: 0;
+}
+
+/*Allow percentage based heights*/
+html, body {
+    height: 100%;
+}
+
+/*Add accessible line height*/
+body {
+    line-height: 1.5;
+}
+
+/*Improve media defaults*/
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
