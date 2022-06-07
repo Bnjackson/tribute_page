@@ -27,3 +27,46 @@ img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
 }
+
+/***
+General 
+***/
+body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+/***
+Layout
+***/
+#title-image-container {
+    margin: 1rem 0 1rem 0;
+}
+
+#title-image-container img {
+    display: block;
+    margin: auto;
+}
+
+#heading-container {
+    text-align: center;
+    font-family: ;
+    font-size: ;
+}
+
+
+/***
+Modules
+***/
+
+/***
+States 
+***/
+
+/***
+Themes
+***/
+
+
+
