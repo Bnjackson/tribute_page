@@ -22,7 +22,7 @@ body {
     line-height: 1.5;
 }
 
-/*Improve media defaults*/
+/*Improve media defaults, make easier to work with*/
 img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
