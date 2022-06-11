@@ -41,20 +41,34 @@ body {
 Layout
 ***/
 #title-image-container {
-    margin: 1rem 0 1rem 0;
+    margin: 0.5rem 0;
 }
 
 #title-image-container img {
     display: block;
     margin: auto;
 }
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 #heading-container {
     text-align: center;
-    font-family: ;
-    font-size: ;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
+#heading-summary {
+    font-size: 1.2rem;
+}
+
+#timeline-container {
+
+}
+
+#timeline-title {
+    margin: 1.5rem 0;
+}
 
 /***
 Modules
