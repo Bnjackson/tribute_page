@@ -52,14 +52,19 @@ h1, h2, h3, h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+p {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
 #heading-container {
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
-#heading-summary {
-    font-size: 1.2rem;
+#heading-summary p {
+    font-size: 1rem;
 }
 
 #timeline-container {
@@ -73,6 +78,21 @@ h1, h2, h3, h4 {
 /***
 Modules
 ***/
+.event-container {
+    border-top: 1px solid darkgray ;
+    padding: 3px 0;
+}
+
+.event-date {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    
+}
+
+.event-description {
+    display: inline;
+}
 
 /***
 States 
