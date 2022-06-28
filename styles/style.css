@@ -87,11 +87,16 @@ Modules
     display: inline-block;
     width: 10%;
     text-align: center;
+    position: relative;
+    font-weight: bold;
+    
     
 }
 
 .event-description {
-    display: inline;
+    display: inline-block;
+    width: 85%;
+    padding: 0.4rem 0;
 }
 
 /***
