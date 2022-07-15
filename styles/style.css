@@ -67,6 +67,10 @@ p {
     font-size: 1rem;
 }
 
+#timeline-sidebar-container {
+    display: flex;
+}
+
 #timeline-container {
 
 }
@@ -75,6 +79,10 @@ p {
     margin: 1.5rem 0;
 }
 
+#quotes-container {
+
+
+}
 /***
 Modules
 ***/
@@ -89,8 +97,6 @@ Modules
     text-align: center;
     position: relative;
     font-weight: bold;
-    
-    
 }
 
 .event-description {
