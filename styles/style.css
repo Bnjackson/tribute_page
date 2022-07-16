@@ -71,11 +71,23 @@ p {
     display: flex;
 }
 
-#timeline-container {
-
+section {
+    width: 65%;
 }
 
 #timeline-title {
+    margin: 1.5rem 0;
+}
+
+#sidebar-container {
+    width: 30%;
+    border: 1px solid darkgray;
+    margin: 1rem;
+
+}
+
+#sidebar-title {
+    text-align: center;
     margin: 1.5rem 0;
 }
 
@@ -104,6 +116,11 @@ Modules
     width: 85%;
     padding: 0.4rem 0;
 }
+
+table { 
+    border-spacing:10px 10px;
+  }
+
 
 /***
 States 
