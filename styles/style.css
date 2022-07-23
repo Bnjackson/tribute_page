@@ -91,6 +91,10 @@ section {
     margin: 1.5rem 0;
 }
 
+#sidebar-photo{
+    padding: 1rem;
+}
+
 #quotes-container {
     margin-top: 1.5rem;
 }
