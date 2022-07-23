@@ -97,7 +97,14 @@ section {
 
 #quotes-container {
     margin-top: 1.5rem;
+    text-align: center;
 }
+
+#quote-title {
+    font-size: 30px;
+}
+
+
 /***
 Modules
 ***/
@@ -124,6 +131,10 @@ table {
     border-spacing:10px 10px;
   }
 
+.quotes {
+    margin-top: 1rem;
+    font-size: 20px
+}
 
 /***
 States 
