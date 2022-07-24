@@ -72,7 +72,7 @@ p {
 }
 
 section {
-    width: 65%;
+    width: 68%;
 }
 
 #timeline-title {
@@ -104,6 +104,9 @@ section {
     font-size: 30px;
 }
 
+footer {
+    margin-top: 1rem;
+}
 
 /***
 Modules
@@ -133,16 +136,30 @@ table {
 
 .quotes {
     margin-top: 1rem;
-    font-size: 20px
+    font-size: 20px;
+    border-bottom: 1px solid darkgray;
 }
 
 /***
 States 
 ***/
+ @media screen and (max-width: 1100px) {
+    #timeline-sidebar-container {
+        display: block;
+    }
+    section {
+        width: 100%;
+    }
+    #sidebar-container {
+        width: 100%;
+    }
+    table {
+        margin: 0 auto;
+ }
 
-/***
-Themes
-***/
-
-
-
+@media screen and (max-width: 870px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
